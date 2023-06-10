@@ -8,6 +8,7 @@ import utils.BrowserUtils;
 
 public class OpenChartLoginPage {
     public OpenChartLoginPage(WebDriver driver){
+
         PageFactory.initElements(driver,this);
     }
     @FindBy(css = "#input-username")
