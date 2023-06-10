@@ -13,7 +13,6 @@ public class CustomerTest extends OpenChartTestBase {
         openChartLoginPage.loginFunctionality("demo","demo");
         CustomerPage customerPage = new CustomerPage(driver);
         MainPage mainPage = new MainPage(driver);
-
         mainPage.getCustomerPage();
         customerPage.addCustomer();
         customerPage.provideCustomerInfo(driver,"Edward","Canga","eddiec@gmail.com",
