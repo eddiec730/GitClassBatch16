@@ -23,12 +23,12 @@ public class OpenChartLoginPage {
     @FindBy(css = "#alert")
     WebElement errorMessage;
 
-    public void loginFunctionality(String username,String password){
-        this.userName.sendKeys(username);
+    public void loginFunctionality(String userName,String password){
+        this.userName.sendKeys(userName);
         this.password.sendKeys(password);
         loginButton.click();
     }
-    public String errorMessage(){
+    public String errorMessage() {
         return BrowserUtils.getText(errorMessage);
     }
 }

@@ -46,7 +46,8 @@ public class CustomerPage {
         addCustomer.click();
     }
 
-    public void provideCustomerInfo(WebDriver driver,String firstName,String lastName,String email,String password,String confirmPassword) throws InterruptedException {
+    public void provideCustomerInfo(WebDriver driver,String firstName,String lastName,
+                                    String email,String password,String confirmPassword) throws InterruptedException {
         this.firstName.sendKeys(firstName);
         this.lastName.sendKeys(lastName);
         this.email.sendKeys(email);

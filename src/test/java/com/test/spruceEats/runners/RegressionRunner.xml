@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression Runner">
+
+    <test name="spruceEats Test">
+        <classes>
+            <class name="com.test.spruceEats.tests.SpruceHomeTest"></class>
+            <class name="com.test.spruceEats.tests.FishSeaFoodTest"></class>
+            <class name="com.test.spruceEats.tests.LastFishPageTest"></class>
+
+        </classes>
+    </test>
+
+</suite>
