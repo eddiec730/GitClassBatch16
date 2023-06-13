@@ -38,6 +38,6 @@ PURPOSE: *Apply Action class method
         if (!iTestResult.isSuccess()) {
             BrowserUtils.getScreenShot(driver, "SprucePictures");
         }
-//        driver.quit();
+        driver.quit();
     }
 }
